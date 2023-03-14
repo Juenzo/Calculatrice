@@ -28,6 +28,10 @@ function btmpoint() {
     document.getElementById("sortie").innerHTML += ".";
 }
 
+function btmModulo() {
+   document.getElementById("sortie").innerHTML += "%";
+}
+
 function btmEgal() {
      var egal = eval(document.getElementById('sortie').innerHTML);
      document.getElementById('sortie').innerHTML = egal;
