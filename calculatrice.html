@@ -8,25 +8,25 @@
 <body>
     <div class="calculator">
         <input type="text" class="display" id="display" disabled>
-        <button class="btn operator" onclick="calculator.addOperator('+')">+</button>
-        <button class="btn" onclick="calculator.deleteLast()">CE</button>
-        <button class="btn" onclick="calculator.clear()">C</button>
-        <button class="btn" onclick="calculator.addValue('7')">7</button>
-        <button class="btn" onclick="calculator.addValue('8')">8</button>
-        <button class="btn" onclick="calculator.addValue('9')">9</button>
-        <button class="btn operator" onclick="calculator.addOperator('-')">-</button>
-        <button class="btn" onclick="calculator.addValue('4')">4</button>
-        <button class="btn" onclick="calculator.addValue('5')">5</button>
-        <button class="btn" onclick="calculator.addValue('6')">6</button>
-        <button class="btn operator" onclick="calculator.addOperator('*')">*</button>
-        <button class="btn" onclick="calculator.addValue('1')">1</button>
-        <button class="btn" onclick="calculator.addValue('2')">2</button>
-        <button class="btn" onclick="calculator.addValue('3')">3</button>
-        <button class="btn operator" onclick="calculator.addOperator('/')">/</button>
-        <button class="btn" onclick="calculator.addValue('0')">0</button>
-        <button class="btn" onclick="calculator.addPoint()">.</button>
-        <button class="btn equals" onclick="calculator.calculate()">=</button>
-        <button class="btn" onclick="calculator.undo()">Undo</button>
+        <button class="btn" onclick="baseCalculator.deleteLast()">CE</button>
+        <button class="btn" onclick="baseCalculator.clear()">C</button>
+        <button class="btn operator" onclick="baseCalculator.addOperator('+')">+</button>
+        <button class="btn" onclick="baseCalculator.addValue('7')">7</button>
+        <button class="btn" onclick="baseCalculator.addValue('8')">8</button>
+        <button class="btn" onclick="baseCalculator.addValue('9')">9</button>
+        <button class="btn operator" onclick="baseCalculator.addOperator('-')">-</button>
+        <button class="btn" onclick="baseCalculator.addValue('4')">4</button>
+        <button class="btn" onclick="baseCalculator.addValue('5')">5</button>
+        <button class="btn" onclick="baseCalculator.addValue('6')">6</button>
+        <button class="btn operator" onclick="baseCalculator.addOperator('*')">*</button>
+        <button class="btn" onclick="baseCalculator.addValue('1')">1</button>
+        <button class="btn" onclick="baseCalculator.addValue('2')">2</button>
+        <button class="btn" onclick="baseCalculator.addValue('3')">3</button>
+        <button class="btn operator" onclick="baseCalculator.addOperator('/')">/</button>
+        <button class="btn" onclick="baseCalculator.addValue('0')">0</button>
+        <button class="btn" onclick="baseCalculator.addPoint()">.</button>
+        <button class="btn equals" onclick="baseCalculator.calculate()">=</button>
+        <button class="btn" onclick="baseCalculator.undo()">Undo</button>
     </div>
     <script src="calculatrice.js"></script>
 </body>

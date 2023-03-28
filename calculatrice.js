@@ -68,4 +68,4 @@ class Calculator {
   }
 }
 
-const calculator = new Calculator();
+const baseCalculator = new Calculator();
